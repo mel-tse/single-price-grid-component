@@ -1,0 +1,13 @@
+body {
+    font-family: Karla;
+    padding: 1em;
+    background: $gray;
+    p {
+        font-size: $Body;
+    }
+}
+.container {
+    background: white;
+    height: fit-content;
+    border-radius: 6px;
+}

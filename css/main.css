@@ -1,2 +1,33 @@
-.cta__heading {
-  color: red; }
+body {
+  font-family: Karla;
+  padding: 1em;
+  background: #e5eff5; }
+  body p {
+    font-size: 16px; }
+
+.container {
+  background: white;
+  height: fit-content;
+  border-radius: 6px; }
+
+.cta {
+  background: white;
+  padding: 1em; }
+  .cta__heading {
+    color: #2ab2af; }
+  .cta__subheading {
+    color: #c0df34; }
+  .cta p {
+    color: #98a6bd; }
+
+.subscription {
+  background: #2ab2af;
+  color: white;
+  padding: 1em; }
+  .subscription__heading {
+    text-transform: capitalize; }
+  .subscription span {
+    font-size: 25px; }
+  .subscription h2 {
+    font-size: 16px;
+    font-weight: 400; }

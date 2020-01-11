@@ -1,5 +1,13 @@
 .cta {
+    background: white;
+    padding: 1em;
     &__heading {
-        color: $red;
+        color: $aqua;
+    }
+    &__subheading {
+        color: $lime;
+    }
+    p {
+        color: $silver;
     }
 }
