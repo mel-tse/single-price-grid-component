@@ -1,6 +1,9 @@
 .cta {
     background: white;
-    padding: 1em;
+    padding: 2em;
+    border: 2px solid white;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
     &__heading {
         color: $aqua;
     }

@@ -1,3 +1,12 @@
+h1 {
+  font-size: 18px; }
+
+h2 {
+  font-size: 17px; }
+
+p, ul {
+  line-height: 22px; }
+
 body {
   font-family: Karla;
   padding: 1em;
@@ -6,13 +15,27 @@ body {
     font-size: 16px; }
 
 .container {
-  background: white;
+  background: #e5eff5;
   height: fit-content;
-  border-radius: 6px; }
+  border-radius: 6px;
+  box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.15); }
+
+.btn {
+  height: 20px;
+  padding: 1em;
+  text-align: center;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.15); }
+  .btn.submit {
+    background: #c0df34; }
 
 .cta {
   background: white;
-  padding: 1em; }
+  padding: 2em;
+  border: 2px solid white;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em; }
   .cta__heading {
     color: #2ab2af; }
   .cta__subheading {
@@ -23,11 +46,24 @@ body {
 .subscription {
   background: #2ab2af;
   color: white;
-  padding: 1em; }
+  padding: 2em; }
   .subscription__heading {
     text-transform: capitalize; }
   .subscription span {
     font-size: 25px; }
   .subscription h2 {
     font-size: 16px;
-    font-weight: 400; }
+    font-weight: 400;
+    color: #e5eff5;
+    padding-bottom: 0.5em; }
+
+.usp {
+  background: #2fc6c4;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+  padding: 2em;
+  color: white; }
+  .usp__reasons {
+    color: #e5eff5;
+    list-style: none;
+    padding-left: initial; }

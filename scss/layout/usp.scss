@@ -1,0 +1,12 @@
+.usp {
+    background: lighten($aqua, 5%);
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding: 2em;
+    color: white;
+    &__reasons {
+        color: $gray;
+        list-style: none;
+        padding-left: initial;
+    }
+}

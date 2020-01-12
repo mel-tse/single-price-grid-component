@@ -1,7 +1,7 @@
 .subscription {
     background: $aqua;
     color: white;
-    padding: 1em;
+    padding: 2em;
     &__heading {
         text-transform: capitalize;
     }
@@ -11,5 +11,7 @@
     h2 {
         font-size: 16px;
         font-weight: 400;
+        color: $gray;
+        padding-bottom: 0.5em;
     }
 }

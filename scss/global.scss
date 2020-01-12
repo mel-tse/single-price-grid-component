@@ -1,3 +1,15 @@
+h1 {
+    font-size: 18px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+p,ul {
+    line-height: 22px;
+}
+
 body {
     font-family: Karla;
     padding: 1em;
@@ -7,7 +19,20 @@ body {
     }
 }
 .container {
-    background: white;
+    background: $gray;
     height: fit-content;
     border-radius: 6px;
+    box-shadow: $BoxShadow;
+}
+
+.btn {
+    height: 20px;
+    padding: 1em;
+    text-align: center;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: $BoxShadow;
+    &.submit {
+        background: $lime;
+    }
 }
