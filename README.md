@@ -3,7 +3,7 @@ This is a responsive single price grid component challenged by https://www.front
 
 Instructions if cloning repo
 
-Install npm 
+Install npm<br>
 Install scss
 
 please see the finished result:
