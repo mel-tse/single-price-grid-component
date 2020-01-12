@@ -1,12 +1,17 @@
 .usp {
     background: lighten($aqua, 5%);
-    border-bottom-left-radius: 1em;
+    border-bottom-left-radius: initial;
     border-bottom-right-radius: 1em;
     padding: 2em;
     color: white;
+    width: 100%;
     &__reasons {
         color: $gray;
         list-style: none;
         padding-left: initial;
+    }
+    @media only screen and (max-width: 600px) {
+        width: initial;
+        border-bottom-left-radius: 1em;
     }
 }

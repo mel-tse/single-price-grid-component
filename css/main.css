@@ -10,15 +10,29 @@ p, ul {
 body {
   font-family: Karla;
   padding: 1em;
+  margin: 6em;
   background: #e5eff5; }
   body p {
     font-size: 16px; }
+  @media only screen and (max-width: 800px) {
+    body {
+      margin: initial; } }
 
 .container {
   background: #e5eff5;
   height: fit-content;
   border-radius: 6px;
-  box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.15); }
+  box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.15);
+  width: 50%; }
+  @media only screen and (max-width: 800px) {
+    .container {
+      width: initial; } }
+
+.section {
+  display: flex; }
+  @media only screen and (max-width: 600px) {
+    .section {
+      flex-direction: column; } }
 
 .btn {
   height: 20px;
@@ -29,6 +43,11 @@ body {
   box-shadow: 1px 10px 5px 0px rgba(0, 0, 0, 0.15); }
   .btn.submit {
     background: #c0df34; }
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-self: center; }
 
 .cta {
   background: white;
@@ -46,7 +65,9 @@ body {
 .subscription {
   background: #2ab2af;
   color: white;
-  padding: 2em; }
+  padding: 2em;
+  width: 100%;
+  border-bottom-left-radius: 1em; }
   .subscription__heading {
     text-transform: capitalize; }
   .subscription span {
@@ -56,14 +77,23 @@ body {
     font-weight: 400;
     color: #e5eff5;
     padding-bottom: 0.5em; }
+  @media only screen and (max-width: 600px) {
+    .subscription {
+      width: initial;
+      border-bottom-left-radius: initial; } }
 
 .usp {
   background: #2fc6c4;
-  border-bottom-left-radius: 1em;
+  border-bottom-left-radius: initial;
   border-bottom-right-radius: 1em;
   padding: 2em;
-  color: white; }
+  color: white;
+  width: 100%; }
   .usp__reasons {
     color: #e5eff5;
     list-style: none;
     padding-left: initial; }
+  @media only screen and (max-width: 600px) {
+    .usp {
+      width: initial;
+      border-bottom-left-radius: 1em; } }

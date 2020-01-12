@@ -2,6 +2,8 @@
     background: $aqua;
     color: white;
     padding: 2em;
+    width: 100%;
+    border-bottom-left-radius: 1em;
     &__heading {
         text-transform: capitalize;
     }
@@ -13,5 +15,9 @@
         font-weight: 400;
         color: $gray;
         padding-bottom: 0.5em;
+    }
+    @media only screen and (max-width: 600px) {
+        width: initial;
+        border-bottom-left-radius: initial;
     }
 }

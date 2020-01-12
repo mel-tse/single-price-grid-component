@@ -13,9 +13,13 @@ p,ul {
 body {
     font-family: Karla;
     padding: 1em;
+    margin: 6em;
     background: $gray;
     p {
         font-size: $Body;
+    }
+    @media only screen and (max-width: 800px) {
+        margin: initial;
     }
 }
 .container {
@@ -23,6 +27,18 @@ body {
     height: fit-content;
     border-radius: 6px;
     box-shadow: $BoxShadow;
+    width: 50%;
+    @media only screen and (max-width: 800px) {
+        width: initial;
+    }
+}
+
+.section {
+    display: flex;
+    @media only screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+    
 }
 
 .btn {
@@ -35,4 +51,10 @@ body {
     &.submit {
         background: $lime;
     }
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-self: center;
 }
